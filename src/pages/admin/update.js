@@ -97,7 +97,7 @@ export default function UpdateProduct() {
                                 className="input-form mt-4"
                             />
                             <input
-                                type="text"
+                                type="number"
                                 placeholder="Stock"
                                 name="stock"
                                 value={form?.stock}

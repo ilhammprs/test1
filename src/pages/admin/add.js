@@ -78,7 +78,7 @@ export default function AddProduct() {
                                 className="input-form mt-4"
                             />
                             <input
-                                type="text"
+                                type="number"
                                 placeholder="Stock"
                                 name="stock"
                                 onChange={handleChange}
