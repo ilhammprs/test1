@@ -64,7 +64,7 @@ export default function UpdateProduct() {
           formData.set('name', form.name);
           formData.set('desc', form.desc);
           formData.set('price', form.price);
-          formData.set('qty', form.stock);
+          formData.set('stock', form.stock);
     
           const response = await API.patch(
             '/product/' + product.id,
